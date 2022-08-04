@@ -92,3 +92,49 @@ a {
 
 .cf:after { clear: both; }
 .cf { *zoom: 1; }
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2754d;
+}
+
+.scroll-sections li {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-sections li:nth-child(1) { background-color: #dbd51d;}
+.scroll-sections li:nth-child(2) { background-color: #47ccdb;}
+.scroll-sections li:nth-child(3) { background-color: #4a91ca;}
+.scroll-sections li:nth-child(4) { background-color: #8af1e0;}
+.scroll-sections li:nth-child(4) { background-color: #d84da0;}
+
+.section3, .circle1, .circle2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2754d;
+}
+
+.circle1 { background-color: #dbd51d;}
+.circle2 { background-color: #4a91ca;}
+
+.word-scroll {
+    height: 100vh;
+    width: 100%;
+    background-color: #e2754d;
+}
+
+.word-scroll p {
+    font-size: 55px;
+    white-space: nowrap;
+}
